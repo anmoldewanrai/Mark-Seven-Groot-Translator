@@ -1,0 +1,54 @@
+:root {
+  --bg-color: #1a171b;
+}
+body {
+  background: var(--bg-color);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+aside {
+  margin-bottom: 2em;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-right: 2px solid #fff;
+}
+
+input {
+  text-align: center;
+  font-size: 2em;
+  width: 50%;
+  min-height: 100px;
+}
+
+p {
+  font-size: 2em;
+}
+
+.btn {
+  margin: 20px 0;
+}
+
+.translationDiv {
+  margin: 10px auto;
+  width: 50%;
+  min-height: 100px;
+  border: 2px solid #fff;
+}
+
+button {
+  width: 50%;
+  cursor: pointer;
+}
